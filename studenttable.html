@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+        }
+        form{
+            width: 50%;
+            margin: 20px auto;
+            padding: 15px;
+            border: 1.5px solid black;
+        }
+        input,select,textarea,button{
+              width: 95%;
+              padding: 5px;
+              margin: 5px 0;
+
+        }
+        button{
+            background-color: rgb(37, 143, 231);
+            border: none;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: rgb(3, 208, 143);
+            color: azure;
+        }
+        input:focus,select:focus{
+            background-color: bisque;
+        }
+        h1{
+            color: aliceblue;
+            background-color: rgb(74, 146, 240);
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms with CSS</h1>
+<form action="">
+    <label for="name">Name:</label>
+    <input type="text">
+    <label for="email">Email:</label>
+    <input type="email">
+    <label for="gender">Gender:</label>
+    <select>
+        <option value="">Male</option>
+        <option>Female</option>
+    </select>
+
+    <label for="text">Message:</label>
+    <input type="textarea">
+    <button>Submit</button>
+    </form>
+</body>
+</html>
